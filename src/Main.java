@@ -13,7 +13,7 @@ public class Main {
         }
 
         if ((arr[0].length() != 1 && !Objects.equals(arr[0], "10") || Objects.equals(arr[0], "0")) || (arr[2].length() != 1 && !Objects.equals(arr[2], "10") || Objects.equals(arr[2], "0"))){
-            throw new Exception("Введено недопустимое значение. Используйте только числа 1-10");
+            throw new Exception("Введено недопустимое значение. Используйте только целые числа 1-10");
         }
 
         if (Objects.equals(arr[1], "+")){
